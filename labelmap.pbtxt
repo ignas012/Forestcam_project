@@ -1,0 +1,35 @@
+item {
+  id: 1
+  name: 'Briedis'
+}
+
+item {
+  id: 2
+  name: 'Kiskis'
+}
+
+item {
+  id: 3
+  name: 'Lape'
+}
+
+item {
+  id: 4
+  name: 'Sernas'
+}
+
+item {
+  id: 5
+  name: 'Stirna'
+}
+
+item {
+  id: 6
+  name: 'Ugnis'
+}
+
+item {
+  id: 7
+  name: 'Vilkas'
+}
+
