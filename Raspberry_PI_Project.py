@@ -371,9 +371,6 @@ async def saityno_transliacija():
                 # Pauzė tarp aptikimo ciklų
         await asyncio.sleep(0.001)
 
-
-import webbrowser
-
 if __name__ == '__main__':
     try:
         # Taikome "nest_asyncio", kad galima būtų naudoti "asyncio" kartu su "jupyter"
