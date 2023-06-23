@@ -17,8 +17,7 @@ import asyncio
 from anyio.to_thread import run_sync
 from io import BytesIO
 from fastapi.middleware.cors import CORSMiddleware
-# from tflite_runtime.interpreter import Interpreter
-import tensorflow as tf
+from tflite_runtime.interpreter import Interpreter
 from queue import Queue
 import os
 from dotenv import load_dotenv
@@ -130,13 +129,6 @@ class Vaizdo_klase:
 # modelio_vieta = '/home/pi/Desktop/Forestcam/ssd'
 # objektu_aptikimo_failas = '/home/pi/Desktop/Forestcam/ssd/model.tflite'
 # etikeciu_failas = '/home/pi/Desktop/Forestcam/ssd/labelmap.txt'
-
-# For Windows
-
-modelio_vieta = 'path_to_model'
-objektu_aptikimo_failas = 'path_to_tflite'
-etikeciu_failas = 'path_to_labelmap.txt'
-
 
 # Minimalus aptikimo slenkstis
 min_aptikimo_slenkstis2= 0.3
